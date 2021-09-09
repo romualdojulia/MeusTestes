@@ -289,6 +289,22 @@ nav.show div.icon-close {
   padding: 1rem 1rem;
 }
 
+.swiper-pagination-bullet {
+  width: 0.75rem;
+  height: 0.75rem;
+}
+
 .swiper-pagination-bullet-active {
-  background: black;
+  background: var(--base-color);
+}
+
+#historia .container {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+#historia .title {
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+  margin-bottom: 0;
 }
