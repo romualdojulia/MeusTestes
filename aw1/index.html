@@ -52,8 +52,10 @@
             <li><a class="title" href="#home">Início</a></li>
             <li><a class="title" href="#historia">História</a></li>
             <li><a class="title" href="#competicoes">Competições</a></li>
+            <li><a class="title" href="#videos">Vídeos</a></li>
             <li><a class="title" href="#graduacoes">Graduações</a></li>
             <li><a class="title" href="#sobre">Sobre mim</a></li>
+            <li><a class="title" href="#contato">Fale Comigo</a></li>
           </ul>
         </div>
 
@@ -70,19 +72,25 @@
             <div class="card">
               <img class="icon-his" src="assets/historia.png" alt="" />
               <h3 class="title">História</h3>
-              <p>Conheça a história desta arte marcial milenar</p>
+              <p>
+                Conheça um pouco do significado, de onde surgiu e do
+                desenvolvimento dessa arte milenar
+              </p>
             </div>
             <div class="card">
               <img class="icon-comp" src="assets/competicoes.png" alt="" />
               <h3 class="title">Competições</h3>
-              <p>Conheça as duas formas de competição que o TaeKwonDo possui</p>
+              <p>
+                Conheça as duas formas de competição que o TaeKwonDo possui, o
+                poomsae e as lutas
+              </p>
             </div>
             <div class="card">
               <img class="icon-his" src="assets/graduacoes.png" alt="" />
               <h3 class="title">Graduações</h3>
               <p>
-                Conheça como é feita e quais os significados das faixas do
-                TaeKwonDo
+                Conheça como funcionam as graduações no TaeKwonDo e o que cada
+                faixa representa
               </p>
             </div>
           </div>
@@ -92,13 +100,12 @@
       <div class="divider-1"></div>
 
       <!-- HISTORIA -->
-
       <section class="section" id="historia">
         <div class="container">
           <header>
             <h2 class="title">História</h2>
           </header>
-          <div class="testimonials swiper-container">
+          <div class="swiper-container">
             <div class="swiper-wrapper">
               <div class="conteudo1 swiper-slide">
                 <img src="assets/historia_1.png" alt="" />
@@ -177,7 +184,7 @@
 
       <div class="divider-2"></div>
 
-      <!--COMPETIÇÕES-->
+      <!--COMPETIÇÕES - Kyrurgui -->
       <section class="section" id="competicoes">
         <div class="container">
           <header>
@@ -269,6 +276,7 @@
         </div>
       </section>
 
+      <!-- COMPETIÇÕES - Poomsae -->
       <section class="section" id="competicoes">
         <div class="container">
           <header>
@@ -350,6 +358,19 @@
             <div class="swiper-pagination"></div>
           </div>
         </div>
+      </section>
+
+      <section class="section" id="videos">
+        <div class="container">
+          <header>
+            <h3 class="title">Vídeos</h3>
+          </header>
+          <p>
+            Abaixo você pode assistir dois vídeos. O primeiro é uma competição em grupos femininos de Poomsae. O segundo é uma luta feminina olímpica de TaeKwondo disputada em Tokyo 2021.
+          </p>
+          <br>
+          <iframe width="450" height="250" src="https://www.youtube.com/embed/HIstZXUBjBk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <iframe width="450" height="250" src="https://www.youtube.com/embed/Tx9R-Ro-myI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       </section>
 
       <div class="divider-1"></div>
@@ -443,7 +464,7 @@
 
       <div class="divider-2"></div>
 
-      <!--SOBRE-->
+      <!--SOBRE MIM-->
       <section class="section" id="sobre">
         <div class="container grid">
           <h2 class="title">Sobre mim</h2>
@@ -462,6 +483,67 @@
           </div>
         </div>
       </section>
+
+      <div class="divider-1"></div>
+    
+      <section class="section" id="contato">
+        <div class="container grid">
+          <h2 class="title">Entre em contato comigo</h2>
+          <form class="form">
+            <div class="row flx">
+              <input
+                type="text"
+                required
+                class="input"
+                name="nome"
+                placeholder="Nome"
+              />
+              <input
+                type="text"
+                required
+                class="input"
+                name="sobrenome"
+                placeholder="Sobrenome"
+              />
+            </div>
+            <div class="row">
+              <input
+                type="text"
+                required
+                class="input"
+                name="email"
+                placeholder="E-mail"
+              />
+            </div>
+            <div class="row">
+              <input
+                type="text"
+                required
+                class="input"
+                name="assunto"
+                placeholder="Assunto"
+              />
+            </div>
+            <div class="row">
+              <textarea
+                class="textarea"
+                required
+                name="mensagem"
+                placeholder="Mensagem"
+              ></textarea>
+            </div>
+            <div class="row">
+              <input type="submit" class="btn" name="enviar" value="Enviar" />
+            </div>
+          </form>
+        </div>
+      </section>
+      
+      <footer>
+        <p>©2021 Julia Romualdo.</p>
+        <p>Todos os direitos reservados.</p>
+      </footer>
+
     </main>
 
     <!-- swiper -->
