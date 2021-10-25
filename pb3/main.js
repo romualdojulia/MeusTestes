@@ -159,6 +159,9 @@ function jogar() {
     })
   }
   exibirCartaMaquina()
+
+  document.getElementById('btnSortear').disabled = true
+  document.getElementById('btnJogar').disabled = true
 }
 
 function exibirCartaJogador() {
@@ -207,6 +210,12 @@ function exibirCartaJogador() {
 
   divCartaMaquina.innerHTML = moldura + nome + tagHTML + opcoesTexto + '</div>'
 }
+
+/* jogar novamente */
+var btn = document.querySelector('#refresh')
+btn.addEventListener('click', function () {
+  location.reload()
+})
 
 function exibirCartaMaquina() {
   var divCartaMaquina = document.getElementById('carta-maquina')
